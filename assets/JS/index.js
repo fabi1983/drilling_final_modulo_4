@@ -64,7 +64,7 @@ primer_div.addEventListener("dblclick", async () => {
         let nuevaCard = primer_div.innerHTML;
 
         nuevaCard += `
-            <div class="col-3 p-3">
+            <div class="col-md-4 col-lg-3 p-3">
                 <div class="card black_bg" >
                     <div class="card-header d-flex">
                         <span class="circulo_tageta1"></span>
@@ -97,7 +97,7 @@ segundo_div.addEventListener("dblclick", async () => {
         let nuevaCard2 = segundo_div.innerHTML;
 
         nuevaCard2 += `
-            <div class="col-3 p-3">
+            <div class="col-md-4 col-lg-3 p-3">
                 <div class="card black_bg" >
                     <div class="card-header d-flex">
                         <span class="circulo_tageta2"></span>
@@ -130,7 +130,7 @@ tercer_div.addEventListener("dblclick", async () => {
         let nuevaCard3 = tercer_div.innerHTML;
 
         nuevaCard3 += `
-            <div class="col-3 p-3">
+            <div class="col-md-4 col-lg-3 p-3">
                 <div class="card black_bg" >
                     <div class="card-header d-flex">
                         <span class="circulo_tageta3"></span>

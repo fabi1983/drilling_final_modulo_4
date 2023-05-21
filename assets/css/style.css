@@ -1,0 +1,119 @@
+body{
+    background-image: url(../img/1609116.jpg);
+    background-attachment: fixed;
+    color: rgb(250, 218, 6);
+    font-weight: 700;
+
+}
+
+.black_bg{
+    background-color: rgb(14, 13, 13);
+    box-shadow: 5px 5px 5px rgb(255, 253, 253);
+
+}
+
+.imagen{
+    width: 30%;
+    height: 40%;
+}
+.texto{
+    font-style: italic;
+    text-align: center;
+    font-size:400%;
+    font-weight: 600;
+    color: transparent;
+    text-shadow: 5px 5px 5px rgb(13, 13, 13); 
+    -webkit-text-stroke: 2px rgb(236, 218, 64);
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    border-right: 0.20em solid #ecde24;
+    animation: typing 4s steps(38) 1s 1 normal both, blink 1s steps(1) infinite;
+  }
+  @keyframes typing {
+    from {width: 0; }
+    to {width: 100%; }
+  }
+  @keyframes blink {50% {border-color: white;}
+  }
+
+.linea{
+    margin: 5px;
+    position: relative;
+    border-left: 4px solid rgb(249, 249, 249);
+    list-style: none;
+    left: 10%;
+}
+.icono1{
+    position: absolute;
+    left: -13px;
+    background: yellow;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+.circulo_tageta1{
+    
+    position:relative;
+    background: yellow;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+
+.icono2{
+    position: absolute;
+    left: -13px;
+    background: rgb(0, 255, 94);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+.circulo_tageta2{
+    
+    position:relative;
+    background: rgb(0, 255, 94);
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.icono3{
+    position: absolute;
+    left: -13px;
+    background: rgb(255, 0, 17);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+} 
+.circulo_tageta3{
+    
+    position:relative;
+    background: rgb(255, 0, 17);
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+ .caja{
+    background-color: black;
+    text-align: start;
+    margin-left: 2%;
+    padding-left: 1%;
+    width: 20%;
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+
+ }
+ #contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ }
+

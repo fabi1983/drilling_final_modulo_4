@@ -118,3 +118,13 @@ body{
     flex-wrap: wrap;
  }
 
+ .numeros{
+    /* left: -20px; */
+    transform: translate(-100px, 100px );
+    color: yellow;
+    font-weight:900;
+ }
+
+.icono1, .icono2, .icono3{
+    transform:translateY(65px)
+}
